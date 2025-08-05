@@ -38,9 +38,9 @@ const CategoryBanner = ({ categories = [] }) => {
         </motion.div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-          {categories.slice(0, 8).map((category, index) => (
+{categories.slice(0, 8).map((category, index) => (
             <motion.div
-              key={category.id}
+              key={`category-${category.id || index}`}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1 }}
@@ -48,6 +48,7 @@ const CategoryBanner = ({ categories = [] }) => {
               className="group"
             >
               <Button
+                key={`category-button-${category.id || index}`}
                 variant="ghost"
                 onClick={() => handleCategoryClick(category)}
                 className="w-full h-auto p-6 flex flex-col items-center space-y-4 bg-white rounded-2xl card-shadow card-hover border-0"
