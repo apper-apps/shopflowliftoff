@@ -1,0 +1,50 @@
+[
+  {
+    "Id": 1,
+    "name": "Electronics",
+    "productCount": 156,
+    "subcategories": ["Smartphones", "Laptops", "Tablets", "Wearables", "Audio"]
+  },
+  {
+    "Id": 2,
+    "name": "Clothing",
+    "productCount": 423,
+    "subcategories": ["Men's", "Women's", "Kids", "Shoes", "Accessories"]
+  },
+  {
+    "Id": 3,
+    "name": "Home & Garden",
+    "productCount": 234,
+    "subcategories": ["Kitchen", "Furniture", "Decor", "Garden", "Storage"]
+  },
+  {
+    "Id": 4,
+    "name": "Sports",
+    "productCount": 189,
+    "subcategories": ["Fitness", "Outdoor", "Team Sports", "Water Sports", "Winter Sports"]
+  },
+  {
+    "Id": 5,
+    "name": "Books",
+    "productCount": 892,
+    "subcategories": ["Fiction", "Non-Fiction", "Textbooks", "Children's", "Comics"]
+  },
+  {
+    "Id": 6,
+    "name": "Beauty",
+    "productCount": 167,
+    "subcategories": ["Skincare", "Makeup", "Fragrance", "Hair Care", "Tools"]
+  },
+  {
+    "Id": 7,
+    "name": "Toys",
+    "productCount": 301,
+    "subcategories": ["Action Figures", "Board Games", "Building Sets", "Dolls", "Educational"]
+  },
+  {
+    "Id": 8,
+    "name": "Automotive",
+    "productCount": 145,
+    "subcategories": ["Parts", "Accessories", "Tools", "Care", "Electronics"]
+  }
+]
