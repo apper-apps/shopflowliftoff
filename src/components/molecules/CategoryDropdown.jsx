@@ -37,9 +37,9 @@ const CategoryDropdown = ({ categories = [], onCategorySelect }) => {
             className="absolute top-full left-0 mt-2 w-64 glassmorphism rounded-2xl shadow-xl z-50 overflow-hidden"
           >
             <div className="py-2">
-              {categories.map((category, index) => (
+{categories.map((category, index) => (
                 <motion.button
-                  key={category.id}
+                  key={category.Id || category.id || index}
                   onClick={() => handleCategoryClick(category)}
                   className="w-full text-left px-4 py-3 text-gray-700 hover:bg-primary hover:text-white transition-all duration-300 font-medium"
                   initial={{ opacity: 0, x: -20 }}
